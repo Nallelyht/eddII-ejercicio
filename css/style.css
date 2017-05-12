@@ -73,6 +73,9 @@ body{
   padding: 1%;
   font-family: 'Dancing Script', cursive;
 }
+.lighygray{
+  background-color: lightgray
+}
 .gray{
   background-color: darkgray;
 }
@@ -89,4 +92,34 @@ iframe{
   width: 90%;
   height: 90%;
   margin: 2% 5%;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+textarea {
+  box-sizing: border-box
+  width: 100%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding:  5%;
+}
+input{
+  margin: 1% 0;
+}
+button{
+  display: flex;
+  align-self: flex-end;
+  border-radius: 10%;
+  padding: .5% 3%;
+  margin-top: 1%;
+  margin-right: 27%
+}
+footer{
+  display: flex;
+  justify-content: center;
+  margin: 10%;
+  padding: 5% 0;
 }
