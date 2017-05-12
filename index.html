@@ -73,11 +73,13 @@
       </h2>
       <form class="form" action="index.html" method="post">
         <label class="form">
-          <input type="email" placeholder="Email Address"/>
-          <input type="text" placeholder="Name"/>
+          <input type="email" placeholder="Email Address" pattern="/([a-zA-Z0–9]+)([\_\.\-{1}])?([a-zA-Z0–9]+)\@([a-zA-Z0–9]+)([\.])([a-zA-Z\.]+)/g" title="Ingresa un correo" required/>
+        </label>
+        <label class="form">
+          <input type="text" placeholder="Name" required/>
         </label>
         <textarea placeholder="Comment"></textarea>
-        <button type="button" name="button">Button</button>
+        <button type="submit" name="button">Button</button>
       </form>
     </section>
 
