@@ -65,10 +65,28 @@ body{
 .heading{
   text-align: center;
   font-size: 5vw;
+  margin-bottom: 1%;
 }
 .text-p{
   text-align: justify;
   font-size: 1.5vw;
   padding: 1%;
   font-family: 'Dancing Script', cursive;
+}
+.gray{
+  background-color: darkgray;
+}
+.video{
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 90%;
+  margin: 2% 5%;
 }
