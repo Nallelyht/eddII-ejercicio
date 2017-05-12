@@ -100,8 +100,6 @@ iframe{
   align-items: center;
 }
 textarea {
-  box-sizing: border-box;
-  width: 100%;
   margin-left: 2%;
   margin-right: 2%;
   padding:  5%;
