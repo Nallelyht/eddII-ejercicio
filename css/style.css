@@ -124,9 +124,9 @@ footer{
   padding: 5% 0;
 }
 
-@media handheld and (min-width: 20em), screen and (min-width: 20em){
+@media handheld and (max-width: 20em), screen and (max-width: 30em) {
   .containerh{
-  display: none;
+    display: none;
   }
   footer{
     background-color: grey !important;
